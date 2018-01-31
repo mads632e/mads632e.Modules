@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Test.Package.For.School</id>
+    <version>0.1.0</version>
+    <authors>mads632e</authors>
+    <owners>mads632e</owners>
+    <licenseUrl></licenseUrl>
+    <projectUrl></projectUrl>
+    <iconUrl></iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Test Package</description>
+    <releaseNotes>Test Notes</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>TestTag</tags>
+    <dependencies>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Modules.DataAccess\Executor.cs" target="content"/>
+    <file src="Modules.DataAccess\RepositoryBase.cs" target="content"/>
+  </files>
+</package>
