@@ -5,9 +5,6 @@
     <version>0.1.0</version>
     <authors>mads632e</authors>
     <owners>mads632e</owners>
-    <licenseUrl></licenseUrl>
-    <projectUrl></projectUrl>
-    <iconUrl></iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Test Package</description>
     <releaseNotes>Test Notes</releaseNotes>
@@ -15,6 +12,9 @@
     <tags>TestTag</tags>
     <dependencies>
     </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System.Configuration"  />
+    </frameworkAssemblies>
   </metadata>
   <files>
     <file src="Modules.DataAccess\Executor.cs" target="content"/>
